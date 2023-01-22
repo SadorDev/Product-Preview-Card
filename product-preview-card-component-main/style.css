@@ -26,7 +26,7 @@ section {
   display: flex;
   flex-direction: row;
   border-radius: 15px;
-  width: 500px;
+  width: 600px;
 }
 
 img {
@@ -79,6 +79,11 @@ button {
   border-radius: 10px;
   height: 50px;
   width: 100%;
+}
+
+button:hover {
+  background-color: hsl(158, 45%, 20%);
+
 }
 
 .fa-cart-shopping {
